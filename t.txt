@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 5%;
+}
+
+.barra_de_navegacao {
+  display: flex;
+}
+
+.barra_de_navegacao img {
+   width: 700%;
+   z-index: 2;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: -11%;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.barra_de_baixar {
+    display: flex;
+    justify-content: center;
+}
+
+.barra_de_baixar img {
+    width: 100%;
+    z-index: 3;
+    margin-top: -7%;
+}
+
+.botoes_barra {
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.botoes_barra img {
+    z-index: 4;
+    margin-top: -20%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.botoes_barra img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+    filter : drop-shadow(15px 10px 5px rgba(0,0,0,.3))
+}
+
+.b_trailer {
+    display: flex;
+    justify-content: left;
+}
+
+.b_trailer img {
+    width: 8%;
+    z-index: 5;
+    margin-top: -20%;
+    margin-left: 1%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.b_trailer img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+    filter : drop-shadow(15px 10px 5px rgba(0,0,0,.3))
+}
+
+.b_baixar {
+    display: flex;
+    justify-content: left;
+}
+
+.b_baixar img {
+    width: 18%;
+    z-index: 6;
+    margin-top: -11%;
+    margin-left: 9.9%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.b_baixar img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+    filter : drop-shadow(15px 10px 5px rgba(0,0,0,.3))
+}
+
+
+.triangulosp {
+    display: flex;
+    justify-content: right;
+}
+
+.triangulosp img {
+    width: 68%;
+    margin-top: -25%;
+}
+
+.ondas2 {
+    display: flex;
+    justify-content: center;
+}
+
+.ondas2 img {
+    width: 100%;
+    margin-top: -20%;
+}
+
+.nome_personagem {
+    display: flex;
+    justify-content: left;
+    z-index: 6;
+    margin-top: -7%;
+    margin-left: 2%;
+}
+
+.nome_personagem p {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 30vw, 25rem);
+  color: white;
+}
+
+.textoo {
+    display: flex;
+    justify-content: left;
+    z-index: 6;
+    margin-top: -9%;
+    margin-left: 2.2%;
+}
+
+.textoo p {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: clamp(0.5rem, 2vw, 2rem);
+}
+
+.icone1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 25%;
+    margin-top: -65%;
+    z-index: 8;
+}
+
+.icone1 img {
+    width: 20%;
+}
+
+.onda_texto {
+    display: flex;
+    justify-content: left;
+    z-index: 9;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.onda_texto img {
+    width: 45%;
+}
+
+.texto_personagem {
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.texto_personagem {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  color: white;
+}
+
+.p_elis {
+    display: flex;
+    justify-content: right;
+    z-index: 10;
+    margin-top: -25%;
+    margin-right: 4%;
+}
+
+.p_elis img {
+    width: 39%;
+}
+
+.fotosp_fundo img{
+    display: flex;
+    width: 38%;
+    margin-left: 4%;
+    margin-top: -9%;
+}
+
+.fotosp {
+  display: flex;
+  gap: 10px; 
+  align-items: center; 
+  margin-left: 6.2%;
+  margin-top: -7%;
+}
+
+.fotosp img{
+    width: 11.5%;
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.fotosp img:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.90));
+    filter : drop-shadow(15px 15px 15px rgba(0,0,0,.2))
+}
+
+.texto_personagemm {
+    margin-left: 1.5%;
+    margin-top: -11%;
+}
+
+.texto_personagemm p {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 5vw, 15rem);
+  color: white;
+}
+
+.ondass {
+    display: flex;
+    align-items: left;
+    margin-top: 15%;
+}
+
+.ondass img {
+    width: 30%;
+    z-index: -1;
+}
+
+.tsobre {
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+    margin-top: -146%;
+}
+
+.tsobre p {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 30vw, 25rem);
+  color: white;
+}
+
+.fundoca img{
+    display: flex;
+    justify-content: left;
+    width: 40%;
+    margin-left: 4%;
+    margin-top: -6.5%;
+}
+
+
+.imgca img {
+    width: 38%;
+    margin-left: 5%;
+    margin-top: -26.5%;
+}
+
+.bc {
+    margin-top: 2%;
+    margin-left: 18.6%;
+    display: flex;
+    gap: 2%;
+}
+
+.bc img{
+    width: 5%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.bc img:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.2);
+    -webkit-filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.90));
+    filter : drop-shadow(15px 15px 15px rgba(0,0,0,.2))
+}
+
+.textoc p{
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 1.8vw, 2.3rem);
+  color: white;
+}
+
+.textoc {
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    margin-top: -29%;
+    margin-right: 2.4%;
+}
+
+.gifcarro img {
+    position: absolute;
+    width: 100%;
+    margin-top: -45%;
+}
+
+.fcmapa img{
+    width: 50%;
+    transform: translateY(-180%);
+    margin-left: 25%;
+}
+
+.fcfotos img {
+    z-index: 50;
+    width: 47%;
+    transform: translateY(-307%);
+    margin-left: 27%;
+}
+
+.teste {
+    display: flex;
+    justify-content: right;
+}
+
+.teste img {
+    width: 68%;
+    margin-top: -5%;
+}
+
+.seta1 img {
+    width: 5%;
+    margin-left: 80%;
+    transform: translateY(-1595%);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.seta2 img {
+    z-index: 999;
+    width: 7%;
+    margin-left: 15.5%;
+    transform: translateY(-1410%);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.tmapa {
+    display: flex;
+    justify-content: left;
+    margin-right: 8%;
+    margin-top: -92%;
+    margin-left: 3%;
+}
+
+.tmapa p {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 30vw, 25rem);
+  color: white;
+}
+
+.pmapa p{
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 1.8vw, 2.3rem);
+  color: white;
+}
+
+.pmapa {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    margin-top: -20%;
+    margin-right: 2.4%;
+}
+
+.tdiario {
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.tdiario p {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 30vw, 25rem);
+  color: white;
+}
+
+.fundod img {
+    width: 34%;
+    margin-left: 9%;
+    margin-top: -19%;
+}
+
+.imgd img {
+    width: 32%;
+    margin-left: 10%;
+    transform: translateY(-112%);
+}
+
+.seta11 img {
+    width: 3%;
+    margin-left: 38%;
+    transform: translateY(-1500%);
+    cursor: pointer;
+}
+
+.seta22 img {
+    width: 3%;
+    margin-left: 11%;
+    transform: translateY(-1600%);
+    cursor: pointer;
+}
+
+.pdiario {
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+    margin-top: 3%;
+    text-align: right;
+    transform: translateY(-600%);
+}
+
+.pdiario p{
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.5rem, 1.8vw, 2.3rem);
+  color: white;
+}
+
+.logos {
+    position: relative;
+    top: -100vh; /* ajuste o valor */
+}
+
+.logos img {
+    width: 100%;
+}
